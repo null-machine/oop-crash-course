@@ -3,7 +3,7 @@
 // allows for hierarchial project structures
 class Pikachu extends Pokemon {
 	
-	// the health variable is inherited
+	// the health and type variables are inherited
 	
 	// a new constructor has been added
 	// `super` accesses the class this inherits from

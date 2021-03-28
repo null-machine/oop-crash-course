@@ -1,3 +1,4 @@
+
 // abstract means that only this class' inheritors can be constructed
 abstract class Pokemon {
 	
@@ -5,10 +6,6 @@ abstract class Pokemon {
 	private - only instances can access
 	protected - only inheritors can access
 	public - everything can access
-	
-	getters and setters can define individual get and set behaviour
-	e.g. email addresses could be private with a public set
-	e.g. if a radius of a circle is set, the area should update too
 	*/
 	
 	// health isn't public because it should never be set directly

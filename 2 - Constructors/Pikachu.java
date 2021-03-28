@@ -3,6 +3,7 @@ class Pikachu {
 	public int health;
 	public String type;
 	
+	// constructors are called to create objects from classes
 	public Pikachu(int newHealth, String newType) {
 		health = newHealth;
 		type = newType;

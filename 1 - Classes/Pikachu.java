@@ -10,4 +10,7 @@ class Pikachu {
 	public void attack() {
 		System.out.println("Pikachu used thunderbolt!");
 	}
+	
+	// classes don't have to have a main method
+	// generally, a main is only used once as a starting point
 }
