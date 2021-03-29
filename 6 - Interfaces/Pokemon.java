@@ -1,4 +1,4 @@
-abstract class Pokemon {
+abstract class Pokemon implements Interactable {
 	
 	private int health;
 	private String type;
@@ -22,4 +22,6 @@ abstract class Pokemon {
 	}
 	
 	public abstract void attack();
+	
+	public abstract void interact();
 }

@@ -39,7 +39,6 @@ abstract class Pokemon {
 	// no setter for a pokemon's type! effectively makes it impossible to
 	// change after the pokemon gets constructed
 	
-	public void attack() {
-		System.out.println("The pokemon used tackle!");
-	}
+	// an abstract modifier forces the method to require overriding
+	public abstract void attack();
 }
