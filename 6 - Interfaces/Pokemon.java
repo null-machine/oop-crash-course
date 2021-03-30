@@ -22,6 +22,4 @@ abstract class Pokemon implements Interactable {
 	}
 	
 	public abstract void attack();
-	
-	public abstract void interact();
 }

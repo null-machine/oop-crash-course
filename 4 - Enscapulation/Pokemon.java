@@ -1,5 +1,5 @@
 
-// abstract means that only this class' inheritors can be constructed
+// abstract on a class means that this class itself can no longer be constructed
 abstract class Pokemon {
 	
 	/*
@@ -39,6 +39,6 @@ abstract class Pokemon {
 	// no setter for a pokemon's type! effectively makes it impossible to
 	// change after the pokemon gets constructed
 	
-	// an abstract modifier forces the method to require overriding
+	// abstract on a method forces non-abstract inheritors to override it
 	public abstract void attack();
 }

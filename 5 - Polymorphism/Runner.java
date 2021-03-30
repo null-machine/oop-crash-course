@@ -18,5 +18,22 @@ class Runner {
 			party[i].attack();
 			// for a pokecenter, party[i].healToMax()
 		}
+		
+		/*
+		System.out.println("\ninstanceof Pikachu?");
+		for (int i = 0; i < party.length; i++) {
+			System.out.println(party[0] instanceof Pikachu);
+		}
+		
+		System.out.println("\ninstanceof Pokemon?");
+		for (int i = 0; i < party.length; i++) {
+			System.out.println(party[0] instanceof Pokemon);
+		}
+		
+		// object.getClass() == other.getClass() compares class directly
+		
+		// `object instanceof Class` checks if object is an instance of
+		// that class, or one of that class' inheritors
+		*/
 	}
 }
