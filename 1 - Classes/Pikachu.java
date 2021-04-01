@@ -1,4 +1,3 @@
-
 // classes are templates that define and create objects
 class Pikachu {
 	

@@ -16,6 +16,7 @@ class Runner {
 		pikachus[5].attack();
 		
 		// static members are accessed from the class, not an object of that class!
+		// syntax is Class.staticMember
 		System.out.print("The pikachus have attacked " + Pikachu.attackCount + " times.");
 	}
 }

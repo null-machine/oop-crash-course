@@ -9,7 +9,7 @@
 1. Classes
 2. Static
 3. Constructors
-	- Lab 2
+	- Lab 2 (simplified)
 4. Inheritance
 	- Lab 4 (simplified)
 5. Enscapulation

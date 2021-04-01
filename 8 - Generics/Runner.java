@@ -4,7 +4,7 @@ class Runner {
 	
 	public static void main(String[] args) {
 		
-		// generics let classes work different types that
+		// generics let classes work with different types that
 		// may otherwise have nothing in common!
 		
 		Pikachu<Berry> pikachu = new Pikachu<Berry>();

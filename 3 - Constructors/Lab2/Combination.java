@@ -10,11 +10,11 @@ public class Combination {
 	
 	public boolean equals(Combination other) {
 		if (other == null) return false;
-		for (int i = 0; i < 3; i++) if (combo[i] != other.combo[i]) return false;
+		for (int i = 0; i < combo.length; i++) if (combo[i] != other.combo[i]) return false;
 		return true;
 	}
 	
 	public String toString() {
-		return String.format("%d:%d:%d", combo[0], combo[1], combo[2]);
+		return combo[0] + ":" + combo[1] + ":" + combo[2];
 	}
 }
