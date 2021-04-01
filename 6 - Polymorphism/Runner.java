@@ -2,6 +2,8 @@ class Runner {
 	
 	public static void main(String[] args) {
 		
+		// cast syntax is `HigherType = (HigherType)objectToCast`
+		
 		// casting upwards works
 		Pokemon pikachu = (Pokemon) new Pikachu();
 		pikachu.attack();
