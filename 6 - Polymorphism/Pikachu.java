@@ -1,10 +1,11 @@
 class Pikachu extends Pokemon {
 	
-	public Pikachu(int health) {
-		super(health, "Electric");
+	public Pikachu() {
+		super(20, "Electric");
 	}
 	
 	public void attack() {
 		System.out.println("Pikachu used thunderbolt!");
+		attackCount++;
 	}
 }

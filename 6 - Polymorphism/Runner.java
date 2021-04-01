@@ -3,7 +3,7 @@ class Runner {
 	public static void main(String[] args) {
 		
 		// casting upwards works
-		Pokemon pikachu = (Pokemon) new Pikachu(20);
+		Pokemon pikachu = (Pokemon) new Pikachu();
 		pikachu.attack();
 		
 		// casting downwards or sideways is impossible

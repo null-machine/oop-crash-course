@@ -1,5 +1,7 @@
 abstract class Pokemon {
 	
+	protected static int attackCount;
+	
 	private int health;
 	private String type;
 	

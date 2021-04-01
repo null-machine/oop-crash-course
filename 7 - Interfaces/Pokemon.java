@@ -1,5 +1,7 @@
 abstract class Pokemon implements Interactable {
 	
+	protected static int attackCount;
+	
 	private int health;
 	private String type;
 	

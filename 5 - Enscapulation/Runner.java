@@ -16,7 +16,7 @@ class Runner {
 		// System.out.print("Ivysaur is an " + ivysaur.getType() + " pokemon, ");
 		// System.out.println("and it has " + ivysaur.getHealth() + " health.");
 		
-		
+		// Ivysaur ivysaur = new Ivysaur();
 		// int damage = 10;
 		// String type = "Dark";
 		// System.out.print("Ivysaur has " + ivysaur.getHealth() + " and ");
