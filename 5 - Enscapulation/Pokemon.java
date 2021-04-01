@@ -1,43 +1,42 @@
 
-// abstract on a class means that this class itself can no longer be constructed
+// this class itself can no longer be constructed
 abstract class Pokemon {
 	
-	/*
-	private - only instances can access
-	protected - only inheritors can access
-	public - everything can access
-	*/
+	// only accessible to inheritors
+	protected static int attackCount;
 	
-	// health isn't public because it should never be set directly
+	// access controlled with getters and setters
 	private int health;
 	
-	// type isn't public because it never changes
-	private String type;
+	// never changed after being set
+	public final String type;
 	
-	// this constructor becomes protected because the constructors in its inheritors are better
-	// e.g. if this was left in, you could instantiate a fire type pikachu
+	/*
+	private String type;
+	public String getType() ...
+	(no setter)
+	*/
+	
 	protected Pokemon(int health, String type) {
 		this.health = health;
 		this.type = type;
 	}
 	
-	// public get access for health is allowed
+	// health getter
 	public int getHealth() {
 		return health;
 	}
 	
-	// controls the way health is set
+	// health setter
 	public void takeDamage(int damage, String type) {
 		if (type.equals(this.type)) damage *= 0.5;
 		health -= damage;
 	}
 	
-	public String getType() {
-		return type;
+	// attackCount getter
+	public int getAttackCount() {
+		return attackCount;
 	}
-	
-	// no setter for a pokemon's type! effectively makes it impossible to
-	// change after the pokemon gets constructed
 	
 	// abstract on a method forces non-abstract inheritors to override it
 	public abstract void attack();

@@ -15,5 +15,6 @@ class Ivysaur extends Pokemon {
 	@Override
 	public void attack() {
 		System.out.println("Ivysaur used razor leaf!");
+		attackCount++;
 	}
 }

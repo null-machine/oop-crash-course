@@ -12,5 +12,6 @@ class Pokemon {
 	
 	public void attack() {
 		System.out.println("The pokemon used tackle!");
+		attackCount++;
 	}
 }
