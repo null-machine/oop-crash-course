@@ -7,12 +7,14 @@ class Pikachu extends Pokemon {
 	
 	// a new constructor has been added
 	// `super` accesses the class this inherits from
-	public Pikachu(int health) {
-		super(health, "Electric");
+	public Pikachu() {
+		super(20, "Electric");
 	}
 	
 	// the attack method has been overridden
+	@Override
 	public void attack() {
 		System.out.println("Pikachu used thunderbolt!");
+		attackCount++;
 	}
 }

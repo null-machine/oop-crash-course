@@ -1,5 +1,7 @@
 class Pikachu {
 	
+	public static int attackCount;
+	
 	public int health;
 	public String type;
 	
@@ -8,8 +10,9 @@ class Pikachu {
 		health = newHealth;
 		type = newType;
 	}
-	
+	// */
 	/*
+	
 	public Pikachu(int health, String type) {
 		this.health = health;
 		this.type = type;
@@ -18,5 +21,6 @@ class Pikachu {
 	
 	public void attack() {
 		System.out.println("Pikachu used thunderbolt!");
+		attackCount++;
 	}
 }

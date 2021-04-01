@@ -7,11 +7,12 @@ class Ivysaur extends Pokemon {
 	
 	// a new constructor has been added
 	// `super` accesses the class this inherits from
-	public Ivysaur(int health) {
-		super(health, "Grass");
+	public Ivysaur() {
+		super(25, "Grass");
 	}
 	
 	// the attack method has been overridden
+	@Override
 	public void attack() {
 		System.out.println("Ivysaur used razor leaf!");
 	}

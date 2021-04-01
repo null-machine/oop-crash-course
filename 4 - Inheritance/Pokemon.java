@@ -1,5 +1,7 @@
 class Pokemon {
 	
+	public static int attackCount;
+	
 	public int health;
 	public String type;
 	
