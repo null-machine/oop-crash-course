@@ -11,7 +11,7 @@
 3. Constructors
 	- Lab 2 (simplified)
 4. Inheritance
-	- Lab 4 (simplified)
+	- Lab 4 (partial)
 5. Enscapulation
 	- Assignment 1
 6. Polymorphism
@@ -25,5 +25,5 @@
 	- Midterm
 
 ### Bonus
-- Practice exam speedrun + narration
+- Narrated practice exam speedrun (your choice)
 - Review requests (concepts, labs, assignments)
