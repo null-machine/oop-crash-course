@@ -2,6 +2,7 @@ class Runner {
 	
 	public static void main(String[] args) {
 		
+		// @ future me give answers to this one but not the next
 		Pikachu pikachu = new Pikachu();
 		System.out.print("Pikachu is an " + pikachu.type + " pokemon, ");
 		System.out.println("and it has " + pikachu.health + " health.");

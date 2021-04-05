@@ -4,6 +4,7 @@ class Pikachu extends Pokemon {
 		super(20, "Electric");
 	}
 	
+	@Override
 	public void attack() {
 		System.out.println("Pikachu used thunderbolt!");
 		attackCount++;

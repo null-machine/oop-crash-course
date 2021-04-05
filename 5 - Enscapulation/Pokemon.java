@@ -1,6 +1,6 @@
 
 // this class itself can no longer be constructed
-abstract class Pokemon {
+ class Pokemon {
 	
 	// only accessible to inheritors
 	protected static int attackCount;

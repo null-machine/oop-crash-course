@@ -2,8 +2,7 @@
 - object oriented programming crash course
 - prerequisites: methods, conditionals, loops (functional programming basics)
 - goal is to get everyone to a point where everyone knows enough to study on their own
-- if you're confident with lab ten, the crash course will probably be beneath you
-- no memory shenanigans
+- if you're confident with lab ten, this crash course will probably be beneath you
 
 ### Crash Course Breakdown
 1. Classes

@@ -4,8 +4,8 @@ class Runner {
 		
 		// none of these will work. why?
 		
-		Pikachu pikachu = new Pikachu();
-		pikachu.type = "Fire";
+		// Pikachu pikachu = new Pikachu();
+		// pikachu.type = "Fire";
 		
 		
 		// Pikachu pikachu = new Pikachu();
@@ -18,12 +18,12 @@ class Runner {
 		
 		// Ivysaur ivysaur = new Ivysaur();
 		// int damage = 10;
-		// String type = "Dark";
-		// System.out.print("Ivysaur has " + ivysaur.getHealth() + " and ");
-		// System.out.println("gets hit by a " + type + " attack for " + damage + "damage!");
+		// String damageType = "Dark";
+		// System.out.println("Ivysaur gets hit by a " + damageType + " attack for " + damage + "damage!");
 		// ivysaur.health -= damage;
 		// System.out.println("Ivysaur now has " + ivysaur.getHealth() + " health remaining.");
 		
+		// this one would fail for three reasons
 		
 		// Pokemon pokemon = new Pokemon(30, "Basic");
 		// pokemon.attack();
