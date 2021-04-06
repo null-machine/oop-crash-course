@@ -1,8 +1,8 @@
 ### DSC Review Session Two
 - object oriented programming crash course
 - prerequisites: methods, conditionals, loops (functional programming basics)
-- goal is to get everyone to a point where everyone knows enough to study on their own
-- if you're confident with lab ten, this crash course will probably be beneath you
+- goal is to get everyone to a point they can focus on problem solving instead of stumbling over oop (or at least to a point where they can study on their own without backtracking too much)
+- if you're confident with lab ten, this crash course will likely be beneath you
 
 ### Crash Course Breakdown
 1. Classes
@@ -17,7 +17,6 @@
 	 - Lab 4
 7. Interfaces
 	- Lab 5
-	- Lab 9
 	- Assignment 2
 8. Generics
 	- Lab 10
