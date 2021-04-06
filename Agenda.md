@@ -18,9 +18,10 @@
 7. Interfaces
 	- Lab 5
 	- Assignment 2
+	- Midterm Q1
 8. Generics
 	- Lab 10
-	- Midterm
+	- Midterm Q2
 
 ### Bonus
 - Narrated practice exam speedrun (your choice)
