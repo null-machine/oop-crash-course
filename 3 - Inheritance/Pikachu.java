@@ -1,12 +1,13 @@
 
 // classes can inherit traits from others
 // allows for hierarchial project structures
+
+// syntax is `class SubClass extends SuperClass`
 class Pikachu extends Pokemon {
 	
 	// the health and type variables are inherited
 	
-	// a new constructor has been added
-	// `super` accesses the class this inherits from
+	// `super` can be used to access items from the superclass
 	public Pikachu() {
 		super(20, "Electric");
 	}

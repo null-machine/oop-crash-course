@@ -10,7 +10,13 @@ public class DataSet {
 	private int numRows;
 	private String[] attributeNames;
 	private String[][] matrix;
-
+	
+	public static void main(String[] args) throws Exception {
+		String strFilename = "weather-with-spaces.csv";
+		DataSet dataset = new DataSet(strFilename);
+		System.out.print(dataset.metadataToString());
+	}
+	
 	public DataSet(String strFilename) throws Exception {
 		calculateDimensions(strFilename);
 		attributeNames = new String[numColumns];
@@ -211,11 +217,5 @@ public class DataSet {
 			}
 		}
 		return count + 1;
-	}
-	
-	public static void main(String[] args) throws Exception {
-		String strFilename = "weather-with-spaces.csv";
-		DataSet dataset = new DataSet(strFilename);
-		System.out.print(dataset.metadataToString());
 	}
 }

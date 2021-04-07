@@ -1,21 +1,16 @@
 
-// this class itself can no longer be constructed
- class Pokemon {
+// abstract makes this class unable to constructed directly — the generic
+// pokemon shouldn't exist!
+abstract class Pokemon {
 	
-	// only accessible to inheritors
+	// protected is only accessible to inheritors
 	protected static int attackCount;
 	
-	// access controlled with getters and setters
+	// private is only accessible within this class
 	private int health;
 	
-	// never changed after being set
+	// public is accessible to everything
 	public final String type;
-	
-	/*
-	private String type;
-	public String getType() ...
-	(no setter)
-	*/
 	
 	protected Pokemon(int health, String type) {
 		this.health = health;

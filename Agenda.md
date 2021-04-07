@@ -1,31 +1,33 @@
 ### DSC Review Session Two
-- object oriented programming crash course + review requests
-- prerequisites: methods, conditionals, loops (functional programming basics)
-- goal is to get everyone to a point they can focus on problem solving instead of stumbling over oop (or at least to a point where they can study on their own without backtracking too much)
-- if you're confident with lab ten, this crash course will likely be beneath you
+- Split into an object oriented programming crash course and review requests
+- Prerequisites: methods, conditionals, loops, arrays (functional programming basics)
+- Goal: get everyone to a point they can focus on problem solving instead of stumbling over oop (or at least to a point where they can study on their own without backtracking too much)
+- If you feel confident with lab ten and assignment four, this session will likely be beneath you
+
+""
 
 ### Crash Course Breakdown
-1. Classes
-2. Static
-3. Constructors
+0. Classes
+1. Static
+2. Constructors
 	- Lab 2 (simplified)
-4. Inheritance
+3. Inheritance
 	- Lab 4 (simplified)
-5. Enscapulation
+4. Encapsulation
 	- Assignment 1
-6. Polymorphism
+5. Polymorphism
 	- Lab 4
-7. Interfaces
+6. Interfaces
 	- Assignment 2
 	- Lab 5
 	- Midterm Q1
-8. Generics
+7. Generics
 	- Lab 6
 	- Midterm Q2
-9. Exceptions (Bonus)
-10. Enumerations (Bonus)
+8. Exceptions (Bonus)
+9. Enumerations (Bonus)
 
 ### Bonus Time Options
-- Narrated practice exam speedruns (your choice)
+- Narrated practice exam speedruns (attendees' choice)
 	- https://www.site.uottawa.ca/~turcotte/teaching/iti-1121/examinations/practice.html
 - Review requests (concepts, labs, assignments)

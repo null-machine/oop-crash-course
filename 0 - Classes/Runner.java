@@ -1,7 +1,6 @@
 class Runner {
 	
-	// inputting `java ClassName` searches that class for
-	// `public static void main(String[] args)` and runs it
+	// `java className` in a command window runs the method `public static void main` in that class
 	public static void main(String[] args) {
 		
 		// making an object from a class

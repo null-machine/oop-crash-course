@@ -1,12 +1,13 @@
 
 // classes can inherit traits from others
 // allows for hierarchial project structures
+
+// syntax is `class SubClass extends SuperClass`
 class Ivysaur extends Pokemon {
 	
 	// the health variable is inherited
 	
-	// a new constructor has been added
-	// `super` accesses the class this inherits from
+	// `super` can be used to access items from the superclass
 	public Ivysaur() {
 		super(25, "Grass");
 	}
