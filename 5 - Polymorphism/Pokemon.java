@@ -3,19 +3,19 @@ abstract class Pokemon {
 	protected static int attackCount;
 	
 	private int health;
-	public final String type;
+	public final String TYPE;
 	
 	protected Pokemon(int health, String type) {
 		this.health = health;
-		this.type = type;
+		this.TYPE = TYPE;
 	}
 	
 	public int getHealth() {
 		return health;
 	}
 	
-	public void takeDamage(int damage, String type) {
-		if (type.equals(this.type)) damage *= 0.5;
+	public void takeDamage(int damage, String TYPE) {
+		if (TYPE.equals(this.TYPE)) damage *= 0.5;
 		health -= damage;
 	}
 	

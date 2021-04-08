@@ -4,11 +4,11 @@ class Runner {
 		
 		// none of these will work. why?
 		
-		// Pikachu pikachu = new Pikachu();
-		// pikachu.type = "Electric";
+		Pikachu pikachu = new Pikachu();
+		pikachu.TYPE = "Electric";
 		
 		// Pikachu pikachu = new Pikachu();
-		// System.out.print("Pikachu is an " + pikachu.type + " pokemon, ");
+		// System.out.print("Pikachu is an " + pikachu.TYPE + " pokemon, ");
 		// System.out.println("and it has " + pikachu.health + " health.");
 		
 		// Ivysaur ivysaur = new Ivysaur();

@@ -2,26 +2,18 @@ class Runner {
 	
 	public static void main(String[] args) {
 		
-		// cast syntax is `Type objectName = (Type)objectToCast`
-		
-		// casting "upwards" works
-		Pokemon pikachu = (Pokemon) new Pikachu();
-		pikachu.attack();
-		
-		// casting "downwards" or "sideways" is impossible
-		// Pikachu pokemon = (Pikachu) new Pokemon();
-		// Ivysaur pikachu = (Ivysaur) new Pikachu();
-		
 		Pokemon[] party = new Pokemon[2];
-		party[0] = (Pokemon) new Pikachu();
-		party[1] = (Pokemon) new Ivysaur();
-		// @ future me, talk about implicits
+		party[0] = new Pikachu();
+		party[1] = new Ivysaur();
 		
 		for (int i = 0; i < party.length; i++) {
 			party[i].attack();
-			// for a pokecenter, party[i].healToMax()
 		}
 		
+		System.out.println("The opposing pokemon used Discharge!");
+		for (int i = 0; i < party.length; i++) {
+			party[i].takeDamage(10, "Electric");
+		}
 		
 		// System.out.println("instanceof Pikachu?");
 		// for (int i = 0; i < party.length; i++) {

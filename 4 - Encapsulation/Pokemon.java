@@ -10,11 +10,11 @@ abstract class Pokemon {
 	private int health;
 	
 	// public is accessible to everything
-	public final String type;
+	public final String TYPE;
 	
 	protected Pokemon(int health, String type) {
 		this.health = health;
-		this.type = type;
+		TYPE = type;
 	}
 	
 	// health getter
@@ -22,8 +22,8 @@ abstract class Pokemon {
 		return health;
 	}
 	
-	public void takeDamage(int damage, String type) {
-		if (type.equals(this.type)) damage *= 0.5;
+	public void takeDamage(int damage, String TYPE) {
+		if (TYPE.equals(this.TYPE)) damage *= 0.5;
 		health -= damage;
 	}
 	
