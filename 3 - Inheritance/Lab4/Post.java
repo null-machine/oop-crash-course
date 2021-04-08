@@ -12,14 +12,6 @@ class Post {
 		timeStamp = Calendar.getInstance().getTime();
 	}
 	
-	public String getUserName() {
-		return userName;
-	}
-	
-	public Date getTimeStamp() {
-		return timeStamp;
-	}
-	
 	public String toString() {
 		String str = new String();
 		str = getClass().getName() + ": " + timeStamp + ", " + userName + ", likes = " + likes;
@@ -27,7 +19,7 @@ class Post {
 	}
 	
 	public int compareTo(Post other) {
-		return timeStamp.compareTo(other.getTimeStamp());
+		return timeStamp.compareTo(other.timeStamp);
 	}
 	
 	public boolean isPopular() {
@@ -36,9 +28,5 @@ class Post {
 	
 	public void like() {
 		likes++;
-	}
-	
-	public int getLikes() {
-		return likes;
 	}
 }

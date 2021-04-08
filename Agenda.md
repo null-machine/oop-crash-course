@@ -4,8 +4,6 @@
 - Goal: get everyone to a point they can focus on problem solving instead of stumbling over oop (or at least to a point where they can study on their own without backtracking too much)
 - If you feel confident with lab ten and assignment four, this session will likely be beneath you
 
-""
-
 ### Crash Course Breakdown
 0. Classes
 1. Static

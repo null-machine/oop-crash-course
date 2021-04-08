@@ -7,17 +7,15 @@ class TextPost extends Post {
 		this.message = message;
 	}
 	
-	public String getMessage() {
-		return message;
+	@Override
+	public boolean isPopular() {
+		return likes > 50;
 	}
 	
+	@Override
 	public String toString() {
 		String str = new String();
 		str = super.toString() + ", " + message;
 		return str;
-	}
-	
-	public boolean isPopular() {
-		return likes > 50;
 	}
 }

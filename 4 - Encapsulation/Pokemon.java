@@ -22,7 +22,6 @@ abstract class Pokemon {
 		return health;
 	}
 	
-	// health setter
 	public void takeDamage(int damage, String type) {
 		if (type.equals(this.type)) damage *= 0.5;
 		health -= damage;
