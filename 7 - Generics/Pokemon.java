@@ -5,11 +5,11 @@ abstract class Pokemon<E> implements Interactable {
 	public E heldItem;
 	
 	private int health;
-	private String type;
+	public final String TYPE;
 	
 	protected Pokemon(int health, String type) {
 		this.health = health;
-		this.type = type;
+		TYPE = type;
 	}
 	
 	public int getHealth() {
@@ -17,12 +17,8 @@ abstract class Pokemon<E> implements Interactable {
 	}
 	
 	public void takeDamage(int damage, String type) {
-		if (type.equals(this.type)) damage *= 0.5;
+		if (type.equals(TYPE)) damage *= 0.5;
 		health -= damage;
-	}
-	
-	public String getType() {
-		return type;
 	}
 	
 	public abstract void attack();

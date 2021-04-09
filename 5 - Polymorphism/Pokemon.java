@@ -7,15 +7,15 @@ abstract class Pokemon {
 	
 	protected Pokemon(int health, String type) {
 		this.health = health;
-		this.TYPE = TYPE;
+		TYPE = type;
 	}
 	
 	public int getHealth() {
 		return health;
 	}
 	
-	public void takeDamage(int damage, String TYPE) {
-		if (TYPE.equals(this.TYPE)) damage *= 0.5;
+	public void takeDamage(int damage, String type) {
+		if (type.equals(this.TYPE)) damage *= 0.5;
 		health -= damage;
 	}
 	

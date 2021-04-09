@@ -3,11 +3,11 @@ abstract class Pokemon {
 	protected static int attackCount;
 	
 	private int health;
-	private String type;
+	public final String TYPE;
 	
 	protected Pokemon(int health, String type) {
 		this.health = health;
-		this.type = type;
+		TYPE = type;
 	}
 	
 	public int getHealth() {
@@ -17,13 +17,9 @@ abstract class Pokemon {
 	public void takeDamage(int damage, String type) {
 		// exceptions let you define error messages
 		// standardized way to replace print statements that highlight errors
-		if (damage < 1) throw new IllegalArgumentException("damage cannot be negative");
-		if (type.equals(this.type)) damage *= 0.5;
+		if (damage < 1) throw new IllegalArgumentException("damage cannot be zero or negative");
+		if (type.equals(TYPE)) damage *= 0.5;
 		health -= damage;
-	}
-	
-	public String getType() {
-		return type;
 	}
 	
 	public abstract void attack();

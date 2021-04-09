@@ -22,8 +22,8 @@ abstract class Pokemon {
 		return health;
 	}
 	
-	public void takeDamage(int damage, String TYPE) {
-		if (TYPE.equals(this.TYPE)) damage *= 0.5;
+	public void takeDamage(int damage, String type) {
+		if (type.equals(TYPE)) damage *= 0.5;
 		health -= damage;
 	}
 	

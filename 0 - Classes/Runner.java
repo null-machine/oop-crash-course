@@ -1,6 +1,6 @@
 class Runner {
 	
-	// `java className` in a command window runs the method `public static void main` in that class
+	// `java ClassName` in a command window runs the method `public static void main` in that class
 	public static void main(String[] args) {
 		
 		// making an object from a class

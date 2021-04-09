@@ -17,7 +17,5 @@ class Runner {
 		// 	exception.printStackTrace();
 		// }
 		// System.out.println("try catch exited");
-		
-		// for more details, search up checked vs unchecked exceptions
 	}
 }
