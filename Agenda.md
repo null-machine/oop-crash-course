@@ -1,5 +1,5 @@
 Please download my material and open it in your editor to follow along!
-https://github.com/LOWERCASE-repo/oop-crash-course/releases/download/1.0/ITI1121.Crash.Course.zip
+https://github.com/LOWERCASE-repo/oop-crash-course/releases/download/1.1/ITI1121.Crash.Course.zip
 
 ### DSC Review Session Two
 - Split into an object oriented programming crash course and review requests
@@ -34,4 +34,4 @@ https://github.com/LOWERCASE-repo/oop-crash-course/releases/download/1.0/ITI1121
 - Review requests (concepts, labs, assignments)
 
 Please download my material and open it in your editor to follow along!
-https://github.com/LOWERCASE-repo/oop-crash-course/releases/download/1.0/ITI1121.Crash.Course.zip
+https://github.com/LOWERCASE-repo/oop-crash-course/releases/download/1.1/ITI1121.Crash.Course.zip
