@@ -14,4 +14,8 @@ class Ivysaur extends Pokemon {
 	public void interact() {
 		System.out.println("Saauur!");
 	}
+	
+	public void cut() {
+		System.out.println("Ivysaur used cut!");
+	}
 }

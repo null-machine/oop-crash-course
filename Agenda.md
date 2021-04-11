@@ -1,3 +1,6 @@
+Please download my material and open it in your editor to follow along!
+https://github.com/LOWERCASE-repo/oop-crash-course/releases/download/1.0/ITI1121.Crash.Course.zip
+
 ### DSC Review Session Two
 - Split into an object oriented programming crash course and review requests
 - Prerequisites: methods, conditionals, loops, arrays (functional programming basics)
@@ -25,7 +28,10 @@
 8. Exceptions (Bonus)
 9. Enumerations (Bonus)
 
-### Bonus Time Options
+### Bonus Time
 - Narrated practice exam speedruns (attendees' choice)
 	- https://www.site.uottawa.ca/~turcotte/teaching/iti-1121/examinations/practice.html
 - Review requests (concepts, labs, assignments)
+
+Please download my material and open it in your editor to follow along!
+https://github.com/LOWERCASE-repo/oop-crash-course/releases/download/1.0/ITI1121.Crash.Course.zip

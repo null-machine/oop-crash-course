@@ -14,4 +14,8 @@ class Pikachu extends Pokemon {
 	public void interact() {
 		System.out.println("Pika pika!");
 	}
+	
+	public void flash() {
+		System.out.println("Pikachu used flash!");
+	}
 }

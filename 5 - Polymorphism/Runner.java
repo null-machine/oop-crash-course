@@ -2,10 +2,13 @@ class Runner {
 	
 	public static void main(String[] args) {
 		
-		// casting from a subclass to a superclass always works
-		Pokemon pikachu = new Pikachu();
+		// pikachu gets upcasted to pokemon
+		Pokemon boop = (Pokemon)new Pikachu();
 		
-		// polymorphism lets you store different subclasses in the same collection!
+		// pokemon gets downcasted to pikachu
+		((Pikachu)boop).flash();
+		
+		// upcasting lets you store different subclasses in the same collection!
 		Pokemon[] party = new Pokemon[2];
 		party[0] = new Pikachu();
 		party[1] = new Ivysaur();

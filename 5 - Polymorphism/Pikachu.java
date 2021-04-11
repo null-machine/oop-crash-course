@@ -9,4 +9,8 @@ class Pikachu extends Pokemon {
 		System.out.println("Pikachu used thunderbolt!");
 		attackCount++;
 	}
+	
+	public void flash() {
+		System.out.println("Pikachu used flash!");
+	}
 }

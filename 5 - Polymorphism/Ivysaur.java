@@ -9,4 +9,8 @@ class Ivysaur extends Pokemon {
 		System.out.println("Ivysaur used razor leaf!");
 		attackCount++;
 	}
+	
+	public void cut() {
+		System.out.println("Ivysaur used cut!");
+	}
 }

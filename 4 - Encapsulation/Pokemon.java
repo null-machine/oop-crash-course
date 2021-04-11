@@ -27,11 +27,6 @@ abstract class Pokemon {
 		health -= damage;
 	}
 	
-	// attackCount getter
-	public int getAttackCount() {
-		return attackCount;
-	}
-	
 	// abstract on a method forces non-abstract inheritors to override it
 	public abstract void attack();
 }
