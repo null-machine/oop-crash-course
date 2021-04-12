@@ -7,14 +7,13 @@ abstract class Pokemon {
 	protected static int attackCount;
 	
 	// private is only accessible within this class
-	private int health;
+	public int health;
 	
 	// public is accessible to everything
 	public final String TYPE;
 	
 	protected Pokemon(int health, String type) {
 		this.health = health;
-		TYPE = type;
 	}
 	
 	// health getter

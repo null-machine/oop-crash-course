@@ -1,8 +1,16 @@
 
 class Whiteboard {
 	
-	public static void main(String[] args) {
+	static void hi() {
 		
+	}
+	
+	static boolean hi() {
+		
+	}
+	
+	public static void main(String[] args) {
+		boolean boop = hi;
 		
 	}
 }

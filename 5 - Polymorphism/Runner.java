@@ -13,15 +13,15 @@ class Runner {
 		party[0] = new Pikachu();
 		party[1] = new Ivysaur();
 		
-		for (int i = 0; i < party.length; i++) {
-			party[i].attack();
-		}
-		
-		System.out.println("The opposing pokemon used Discharge!");
-		for (int i = 0; i < party.length; i++) {
-			party[i].takeDamage(10, "Electric");
-			System.out.println(party[i] + " has " + party[i].getHealth() + " health remaining!");
-		}
+		// for (int i = 0; i < party.length; i++) {
+		// 	party[i].attack();
+		// }
+		//
+		// System.out.println("The opposing pokemon used Discharge!");
+		// for (int i = 0; i < party.length; i++) {
+		// 	party[i].takeDamage(10, "Electric");
+		// 	System.out.println(party[i] + " has " + party[i].getHealth() + " health remaining!");
+		// }
 		
 		// System.out.println("instanceof Pikachu?");
 		// for (int i = 0; i < party.length; i++) {

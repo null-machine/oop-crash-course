@@ -7,7 +7,7 @@ class Pikachu {
 	public int health;
 	public String type;
 	
-	public void attack() {
+	public static void attack() {
 		System.out.println("Pikachu used thunderbolt!");
 		
 		// update statistics each time we attack
