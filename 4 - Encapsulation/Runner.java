@@ -8,11 +8,11 @@ class Runner {
 		// pikachu.TYPE = "Electric";
 		
 		// Pikachu pikachu = new Pikachu();
-		// System.out.println("Pikachu has " + pikachu.getHealth() + " health.");
+		// System.out.println("Pikachu has " + pikachu.health + " health.");
 		
-		Ivysaur ivysaur = new Ivysaur();
-		ivysaur.health -= 10;
-		System.out.println("Ivysaur has " + ivysaur.getHealth() + " health remaining.");
+		// Ivysaur ivysaur = new Ivysaur();
+		// ivysaur.health -= 10;
+		// System.out.println("Ivysaur has " + ivysaur.getHealth() + " health remaining.");
 		
 		// Pokemon pokemon = new Pokemon(30, "Basic");
 	}

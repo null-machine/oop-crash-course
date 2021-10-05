@@ -5,7 +5,7 @@ class Runner {
 		Pikachu pikachu = new Pikachu();
 		System.out.print("Pikachu is an " + pikachu.type + " pokemon, ");
 		System.out.println("and it has " + pikachu.health + " health.");
-		pikachu.attack(pikachu);
+		pikachu.attack();
 		
 		// Ivysaur ivysaur = new Ivysaur();
 		// System.out.print("Ivysaur is an " + ivysaur.type + " pokemon, ");

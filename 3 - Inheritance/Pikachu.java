@@ -18,9 +18,4 @@ class Pikachu extends Pokemon {
 		System.out.println("Pikachu used thunderbolt!");
 		attackCount++;
 	}
-	
-	public void attack(Pokemon target) {
-		if (target.TYPE.equals("Electric")) damage *= 0.5;
-		target.health -= damage;
-	}
 }
