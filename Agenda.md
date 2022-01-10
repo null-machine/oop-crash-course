@@ -1,37 +1,26 @@
-Please download my material and open it in your editor to follow along!
-https://github.com/LOWERCASE-repo/oop-crash-course/releases/download/1.0/ITI1121.Crash.Course.zip
+# Introduction to Java
+- This session will cover the fundamentals of Java before OOP (Object-Oriented Programming)
+- If you're comfortable with OOP, this session will likely be beneath you
+- Resources for this session will also function as a syntax reference to make the transition from Python easier
+- By the end, everyone will be able to comfortably do Lab 1 from last year's ITI1121
 
-### DSC Review Session Two
-- Split into an object oriented programming crash course and review requests
-- Prerequisites: methods, conditionals, loops, arrays (functional programming basics)
-- Goal: get everyone to a point they can focus on problem solving instead of stumbling over oop (or at least to a point where they can study on their own without backtracking too much)
-- If you feel confident with lab ten and assignment four, this session will likely be beneath you
+# Crash Course Breakdown
+1. Variables
+2. Scanner
+3. Conditionals
+4. Loops
+5. Arrays
+6. Functions
+7. Lab 1 Solution
 
-### Crash Course Breakdown
-0. Classes
-1. Static
-2. Constructors
-	- Lab 2 (simplified)
-3. Inheritance
-	- Lab 4 (simplified)
-4. Encapsulation
-	- Assignment 1
-5. Polymorphism
-	- Lab 4
-6. Interfaces
-	- Assignment 2
-	- Lab 5
-	- Midterm Q1
-7. Generics
-	- Lab 6
-	- Midterm Q2
-8. Exceptions (Bonus)
-9. Enumerations (Bonus)
+# Bonus Time
+- Course-specific tips and warnings
+- How to read an API with the String class
+- Explaining `static` and classes
 
-### Bonus Time
-- Narrated practice exam speedruns (attendees' choice)
-	- https://www.site.uottawa.ca/~turcotte/teaching/iti-1121/examinations/practice.html
-- Review requests (concepts, labs, assignments)
+# Other Notes
+The content for this session can be downloaded here:
+https://github.com/LOWERCASE-repo/oop-crash-course/releases/
 
-Please download my material and open it in your editor to follow along!
-https://github.com/LOWERCASE-repo/oop-crash-course/releases/download/1.0/ITI1121.Crash.Course.zip
+Alternatively, you may follow along in an online compiler:
+https://www.tutorialspoint.com/compile_java_online.php

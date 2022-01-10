@@ -1,7 +1,7 @@
 
 /*
 Student name: Glen Wang
-Student number: 300164126
+
 Course: ITI 1121
 Lab section: B-1
 */
