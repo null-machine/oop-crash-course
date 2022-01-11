@@ -5,7 +5,7 @@ class Input {
 
 	public static void main(String[] args) {
 
-		Scanner input = new Scanner(System.in); // treat this as boilerplate code whenever you use scanner. it will make sense once classes and constructors are covered.
+		Scanner input = new Scanner(System.in); // treat this as boilerplate code whenever you use scanner. it will make sense once classes and constructors are covered
 
 		System.out.println("input a line: ");
 		String line = input.nextLine(); // nextLine() reads the next string until a line break
@@ -24,10 +24,7 @@ class Input {
 		String nextWord = input.next();
 		System.out.println("the words inputted are " + firstWord + " " + nextWord);
 
-		// whenever a question asks to take user input, the easiest way to do so is almost always scanner.
-		// if you're interested in reading from files or more performance, look into BufferedReader.
-
-
-		// presenter's note: peek Q6
+		// whenever a question asks to take user input, the easiest way to do so is almost always scanner
+		// if you're interested in reading from files or more performance, look into BufferedReader
 	}
 }

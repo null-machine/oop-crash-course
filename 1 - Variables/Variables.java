@@ -10,9 +10,9 @@ class Variables {
 		System.out.println("number is: " + number);
 		number = number + 6;
 		System.out.println("number after adding 6 is: " + number);
+		System.out.println("the remainder of " + number + " divided by 4 is " + (number % 4));
 		number = number / 5; // same thing as `number = number - 10`
 		System.out.println("number after dividing by 5 is: " + number);
-		// subtraction (-), division (/), and modulo (%) are other common operators
 		System.out.println("-------------------------------");
 
 		boolean equalsThree = (number == 3);
@@ -25,6 +25,11 @@ class Variables {
 		System.out.println("otherNumber is " + otherNumber);
 		number = (int)otherNumber; // if precision is lost, you need to make the type change explicit (this is called casting)
 		System.out.println("number is " + number);
+
+		otherNumber = 15 / 4; // be careful about data types! even though otherNumber is a double,
+		// 15 and 4 are integers, so this will perform integer division instead of double division,
+		// resulting in the loss of the decimal point. to fix this, cast the numbers!
+		System.out.println("15 / 4 = " + otherNumber);
 
 		System.out.println("-------------------------------");
 

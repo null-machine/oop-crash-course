@@ -1,0 +1,15 @@
+variables, scanner
+
+Q1) Write a program that gets three integers from the user and calculates their average as a double.
+
+conditionals, loops
+
+Q3) Write a program that checks if a number given by the user is prime.
+
+arrays
+
+Q2) Write a program that creates an integer array with elements equal to the square of their index.
+
+functions
+
+Q2) Write a function that takes an array, a value, and an index that returns a new array with the value inserted at the index specified.

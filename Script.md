@@ -12,4 +12,6 @@ for example, you now have to worry about variable declaration, and you can't pri
 
 but, my ultimate goal here is to have everyone be able to do lab 1 from last year with ease, because after reviewing my code for this course, lab 1 is a pretty good filter to check which students understand the fundamentals, and which students do not. if you struggle with lab one, keeping up is just going to be a complete lost cause.
 
-as such, ive based my session around lab 1, and every subject i cover today will have relevance once we take a look at the lab.
+as such, ive based my session around lab 1, and every subject i cover today will have relevance to it.
+
+however, i don't want to get smote for academic integrity since i'm only in my second year, so i've created my own set of questions based on the lab that will cover the same concepts but more elegantly.

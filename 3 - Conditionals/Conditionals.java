@@ -13,7 +13,6 @@ class Conditionals {
 		} else {
 			System.out.println("flagA is false");
 		}
-
 		System.out.println("------------");
 
 		System.out.println("1 - apple, 2 - banana, 3 - cherry");
