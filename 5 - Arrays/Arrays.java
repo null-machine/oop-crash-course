@@ -45,5 +45,7 @@ class Arrays {
 		for (int i = 0; i < namesA.length; i++) {
 			System.out.print(namesA[i] + "\t");
 		}
+
+		// notably, the `String[] args` in `public static void main(String[] args)` 
 	}
 }

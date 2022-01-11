@@ -4,7 +4,6 @@ Course: ITI 1121
 Lab section: B-1
 */
 
-
 class Q5 {
 
 	// main provided by professors, do not modify

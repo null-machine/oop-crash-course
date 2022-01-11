@@ -4,7 +4,7 @@ Course: ITI 1121
 Lab section: B-1
 */
 
-class Q3_SquareArray {
+class Q4 {
 
 
 	/**

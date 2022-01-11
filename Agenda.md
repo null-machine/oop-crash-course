@@ -17,9 +17,8 @@
 - Variables, input and arrays are fundamentals for data storage
 
 # Bonus Time
-- Course-specific tips and warnings
 - How to read an API with the String class
-- Explaining `static` and classes
+- Explaining what `static` and why it's showing up everywhere
 
 # Other Notes
 The content for this session can be downloaded here:
