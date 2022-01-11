@@ -31,6 +31,16 @@ class Arrays {
 		namesB[2] = "aubrey";
 		namesB[3] = "kel";
 
+		// 2d arrays exist as well
+		int[][] gridA = new int[3][4];
+		gridA[1][2] = 42;
+		char[][] gridB = {
+			{'a', 'b', 'c'},
+			{'d', 'e', 'f'}
+		};
+		System.out.println(gridB[1][1]);
+
+
 		// for-each loops probably aren't a requirement for this course, but considering how much
 		// time they've saved me, i'd say they're worth mentioning for completeness.
 
@@ -45,7 +55,5 @@ class Arrays {
 		for (int i = 0; i < namesA.length; i++) {
 			System.out.print(namesA[i] + "\t");
 		}
-
-		// notably, the `String[] args` in `public static void main(String[] args)` 
 	}
 }

@@ -1,29 +1,15 @@
-/*
-Student name: Glen Wang
-Course: ITI 1121
-Lab section: B-1
-*/
+class Q4 {
 
-
-class Q3_ArrayInsertionDemo {
-
-
-	/**
-	*
-	* Insert into array
-	*
-	* @param beforeArray  the before array
-	* @param indexToInsert  the index to insert
-	* @param valueToInsert  the value to insert
-	* @return int[]  the after array
-	*/
-	public static int[] insertIntoArray(int[] beforeArray, int indexToInsert, int valueToInsert){
-
+	static int[] insertIntoArray(int[] beforeArray, int indexToInsert, int valueToInsert){
 		int[] afterArray = new int[beforeArray.length + 1];
 		for (int i = 0; i < afterArray.length; i++) {
-			if (i < indexToInsert) afterArray[i] = beforeArray[i];
-			else if (i == indexToInsert) afterArray[i] = valueToInsert;
-			else afterArray[i] = beforeArray[i - 1];
+			if (i < indexToInsert) {
+				 afterArray[i] = beforeArray[i];
+			 } else if (i == indexToInsert) {
+				 afterArray[i] = valueToInsert;
+			 } else {
+				 afterArray[i] = beforeArray[i - 1];
+			 }
 		}
 		return afterArray;
 	}

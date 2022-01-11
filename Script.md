@@ -15,3 +15,5 @@ but, my ultimate goal here is to have everyone be able to do lab 1 from last yea
 as such, ive based my session around lab 1, and every subject i cover today will have relevance to it.
 
 however, i don't want to get smote for academic integrity since i'm only in my second year, so i've created my own set of questions based on the lab that will cover the same concepts but more elegantly.
+
+also, i've designed these questions to consolidate fundamentals more than challenge your ability to problem solve, so you can really focus on just nailing the syntax.

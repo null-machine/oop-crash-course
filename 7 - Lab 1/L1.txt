@@ -4,12 +4,12 @@ Q1) Write a program that gets three integers from the user and calculates their 
 
 conditionals, loops
 
-Q3) Write a program that checks if a number given by the user is prime.
+Q2) Write a program that checks if a number given by the user is prime.
 
 arrays
 
-Q2) Write a program that creates an integer array with elements equal to the square of their index.
+Q3) Write a program that constructs and prints a 10 by 10 array with each element equal to the product of its indices.
 
 functions
 
-Q2) Write a function that takes an array, a value, and an index that returns a new array with the value inserted at the index specified.
+Q4) Write a function that takes an array, a value, and an index that returns a new array with the value inserted at the index specified.
