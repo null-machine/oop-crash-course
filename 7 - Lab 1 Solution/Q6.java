@@ -12,7 +12,9 @@ public class Q6 {
 		Scanner input = new Scanner(System.in);
 		double[] notes = new double[10];
 		System.out.print("Input ten grades: ");
-		for (int i = 0; i < notes.length; i++) notes[i] = input.nextDouble();
+		for (int i = 0; i < notes.length; i++) {
+			notes[i] = input.nextDouble();
+		}
 		System.out.println("Average: " + calculateAverage(notes));
 		System.out.println("Median: " + calculateMedian(notes));
 		System.out.println("Failed: " + calculateNumberFailed(notes));

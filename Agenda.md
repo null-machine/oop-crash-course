@@ -6,12 +6,15 @@
 
 # Crash Course Breakdown
 1. Variables
-2. Scanner
+2. Input
 3. Conditionals
 4. Loops
 5. Arrays
 6. Functions
 7. Lab 1 Solution
+
+- Conditionals, loops and functions are fundamentals for flow control
+- Variables, input and arrays are fundamentals for data storage
 
 # Bonus Time
 - Course-specific tips and warnings
