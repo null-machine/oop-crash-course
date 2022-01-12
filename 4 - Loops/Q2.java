@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Q1 {
+class Q2 {
 
 	// Write a program that checks if a number given by the user is prime.
 
@@ -12,7 +12,9 @@ class Q1 {
 
 		boolean prime = true;
 
-		if (number < 2) prime = false;
+		if (number < 2) {
+			prime = false;
+		}
 		for (int i = 2; i * i <= number; i++) {
 			if (number % i == 0) {
 				prime = false;

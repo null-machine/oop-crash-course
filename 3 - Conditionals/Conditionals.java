@@ -9,9 +9,9 @@ class Conditionals {
 		if (flagA) {
 			System.out.println("flagA is true");
 		} else if (flagB) {
-			System.out.println("flagA and flagB are true");
+			System.out.println("flagA is false and flagB are true");
 		} else {
-			System.out.println("flagA is false");
+			System.out.println("flagA and flagB are false");
 		}
 		System.out.println("------------");
 

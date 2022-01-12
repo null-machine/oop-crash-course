@@ -8,7 +8,7 @@ class Variables {
 
 		int number = 12;
 		System.out.println("number is: " + number);
-		number = number + 6;
+		number += 6;
 		System.out.println("number after adding 6 is: " + number);
 		System.out.println("the remainder of " + number + " divided by 4 is " + (number % 4));
 		number = number / 5; // same thing as `number = number - 10`
@@ -36,7 +36,7 @@ class Variables {
 		// strings and characters
 
 		String word = "bcd";
-		word += "efg";
+		word = word + "efg";
 		char character = 'a';
 		word = character + word;
 		System.out.println("word is: " + word);

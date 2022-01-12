@@ -13,9 +13,12 @@ class Arrays {
 		// instead, we use a loop:
 		for (int i = 0; i < array.length; i++) {
 			System.out.print(array[i] + "\t");
-			array[i] = 1000;
 		}
 		System.out.println();
+
+		for (int i = 0; i < array.length; i++) {
+			array[i] = 1000;
+		}
 
 		for (int i = 0; i < array.length; i++) {
 			System.out.print(array[i] + "\t");
@@ -32,13 +35,13 @@ class Arrays {
 		namesB[3] = "kel";
 
 		// 2d arrays exist as well
-		int[][] gridA = new int[3][4];
-		gridA[1][2] = 42;
+		int[][] gridA = new int[2][3];
+
 		char[][] gridB = {
 			{'a', 'b', 'c'},
 			{'d', 'e', 'f'}
 		};
-		System.out.println(gridB[1][1]);
+		System.out.println("grid[1][1] is " + gridB[1][1]);
 
 
 		// for-each loops probably aren't a requirement for this course, but considering how much

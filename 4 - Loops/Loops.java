@@ -24,6 +24,16 @@ class Loops {
 			System.out.print(k + " ");
 			k++;
 		} while (k < 10);
+		System.out.println();
+
+		System.out.println("----------");
+
+		// loops can also be nested!
+		for (int a = 0; a < 3; a++) {
+			for (int b = 0; b < 3; b++) {
+				System.out.println(a + " " + b);
+			}
+		}
 
 		System.out.println("----------");
 
@@ -33,11 +43,5 @@ class Loops {
 			factorial *= i;
 		}
 		System.out.println("the factorial of " + factorialNumber + " is " + factorial);
-
-		// for (int i = 0; i < 10; i++) {
-		// 	for (int j = 0; j < 10; j++) {
-		// 		// loops can also be nested!
-		// 	}
-		// }
 	}
 }

@@ -20,10 +20,11 @@
 - How to read an API with the String class
 - Explaining what `static` is and why it's showing up everywhere
 - Setting up Java and JUnit (I'm assuming the profs have this covered)
+- Code review (send me some code you've written and I'll see if I can catch any pitfalls or potential mark losses)
 
 # Other Notes
 The content for this session can be downloaded here:
 https://github.com/LOWERCASE-repo/oop-crash-course/releases/
 
-Alternatively, you may follow along in an online compiler:
+If you're still setting up Java, you may follow along in an online compiler:
 https://www.tutorialspoint.com/compile_java_online.php

@@ -7,9 +7,9 @@ class Functions {
 		System.out.println(increment(5));
 		System.out.println("------------");
 
-		String[] array = { "one", "two" };
-		swap(array, 0, 1);
-		System.out.println(array[0] + " " + array[1]);
+		String[] array = { "one", "two", "three" };
+		array = swap(array, 0, 1);
+		System.out.println(array[0] + " " + array[1] + " " + array[2]);
 		System.out.println("------------");
 
 		System.out.println(increment(5, 10));
@@ -24,8 +24,7 @@ class Functions {
 		return number + 1;
 	}
 
-	// arrays are passed by reference, which means that changes made to them in the function will affect the array
-	static void swap(String[] words, int indexA, int indexB) {
+	static String[] swap(String[] words, int indexA, int indexB) {
 		// if (indexA < 0 || indexB < 0 || indexA >= words.length || indexB >= words.length) {
 		// 	System.out.println("invalid indexes");
 		// 	return;
@@ -33,6 +32,7 @@ class Functions {
 		String buffer = words[indexA];
 		words[indexA] = words[indexB];
 		words[indexB] = buffer;
+		return words;
 	}
 
 	// overloaded functions have the same name but different parameters
