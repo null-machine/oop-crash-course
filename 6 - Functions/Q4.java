@@ -1,8 +1,8 @@
 class Q4 {
 
-	// Write a function that takes an int[] array, an int value, and an int index that returns a new int[] array with the value inserted at the index specified.
+	// Write a function that takes an int[] array, an int value, and an int index that returns a new int[] array with the value inserted at the index specified. All remaining values get shifted down by one.
 
-	static int[] insertIntoArray(int[] array, int index, int value){
+	static int[] insertIntoArray(int[] array, int index, int value) {
 		int[] newArray = new int[array.length + 1];
 		for (int i = 0; i < newArray.length; i++) {
 			if (i < index) {
