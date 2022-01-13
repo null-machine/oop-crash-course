@@ -3,9 +3,9 @@ class Arrays {
 	public static void main(String[] args) {
 
 		int[] array = new int[5];
-		array[0] = 413;
-		array[2] = 612;
-		array[4] = 1025;
+		array[0] = 123;
+		array[2] = 456;
+		array[4] = 789;
 
 		// can't print arrays directly! you'll print the memory address where they're stored.
 		System.out.println("attempting to print an array: " + array);
@@ -26,13 +26,13 @@ class Arrays {
 		System.out.println();
 
 
-		String[] namesA = { "basil", "sunny", "aubrey", "kel" };
+		String[] namesA = { "alice", "bob", "charlie", "david" };
 		// is the same as
 		String[] namesB = new String[4];
-		namesB[0] = "basil";
-		namesB[1] = "sunny";
-		namesB[2] = "aubrey";
-		namesB[3] = "kel";
+		namesB[0] = "alice";
+		namesB[1] = "bob";
+		namesB[2] = "charlie";
+		namesB[3] = "david";
 
 		// 2d arrays exist as well
 		int[][] gridA = new int[2][3];
