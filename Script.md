@@ -8,13 +8,13 @@ with that, lets take a look at the agenda.
 
 i suspect that the use most of you will get from this session is just me explaining all the differences in syntax and thought process behind python and java
 
-for example, you now have to worry about variable declaration, and you can't print an array by just putting it in a print statement anymore. i'll explain everything in time.
+for example, you now have to worry about variable declaration and data types, and there's lots of small stuff as well that the profs expect you to magically understand, like how you need semicolons at the end of most lines and that you can't print an array by just putting it in a print statement anymore. i'll explain everything in time.
 
-but, my ultimate goal here is to have everyone be able to do lab 1 from last year with ease, because after reviewing my code for this course, lab 1 is a pretty good filter to check which students understand the fundamentals, and which students do not. if you struggle with lab one, keeping up is just going to be a complete lost cause.
+but, my ultimate goal here is to have everyone be able to do lab 1 from last year with ease, because after reviewing my code for this course, lab 1 is a pretty good filter to check which students understand the fundamentals, and which students do not. if you struggle with lab one, keeping up is just going to be very challenging.
 
-as such, ive based my session around lab 1, and every subject i cover today will have relevance to it.
+as such, i've written four questions that test the same knowledge that lab one covers, and every subject i cover today will have relevance to it.
 
-however, i don't want to get smote for academic integrity since i'm only in my second year, so i've created my own set of questions based on the lab that will cover the same concepts but more elegantly.
+i will not be covering lab one directly for fear of breaching academic integrity.
 
 also, i've designed these questions to consolidate fundamentals more than challenge your ability to problem solve, so you can really focus on just nailing the syntax.
 

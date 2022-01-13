@@ -6,13 +6,17 @@
 
 # Crash Course Breakdown
 1. Variables
+
 2. Input
 - Q1) Write a program that gets three integers from the user and calculates their average as a double.
+
 3. Conditionals
 4. Loops
 - Q2) Write a program that checks if a number given by the user is prime.
+
 5. Arrays
 - Q3) Write a program that constructs and prints a 10 by 10 array with each element equal to the product of its indices.
+
 6. Functions
 - Q4) Write a function that takes an array, a value, and an index that returns a new array with the value inserted at the index specified.
 

@@ -24,7 +24,6 @@ class Input {
 		String nextWord = input.next();
 		System.out.println("the words inputted are " + firstWord + " " + nextWord);
 
-
 		// whenever a question asks to take user input, the easiest way to do so is almost always scanner
 		// if you're interested in reading from files or more performance, look into BufferedReader
 	}
