@@ -16,9 +16,6 @@
 6. Functions
 - Q4) Write a function that takes an array, a value, and an index that returns a new array with the value inserted at the index specified.
 
-1, 3, 4, 6
-2, 5
-
 # Bonus Time
 - How to read an API with the String class
 - Explaining what `static` is and why it's showing up everywhere
@@ -34,3 +31,5 @@ https://www.tutorialspoint.com/compile_java_online.php
 
 If you're ready to start learning OOP, I made a video for that last year:
 https://www.youtube.com/watch?v=JH9ebWuDp-M
+
+If you want to message me as if I were a TA, my Discord tag is LOWERCASE#0357. (Please tell me you came from the session, otherwise I'll think you're a bot!)

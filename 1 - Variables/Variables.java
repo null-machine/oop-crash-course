@@ -6,17 +6,17 @@ class Variables {
 		// this means you need to declare a type for every single variable you use
 		// for this example, we're using int, or integer, which just refers to whole numbers
 
-		int number = 12;
+		int number = 413;
 		System.out.println("number is: " + number);
-		number = number + 6;
-		System.out.println("number after adding 6 is: " + number);
-		System.out.println("the remainder of " + number + " divided by 4 is " + (number % 4));
-		number = number / 5; // same thing as `number = number - 10`
-		System.out.println("number after dividing by 5 is: " + number);
+		number = number + 612;
+		System.out.println("number after adding 612 is: " + number);
+		System.out.println("number % 10 is " + (number % 10));
+		number = number / 3; // same thing as `number = number - 10`
+		System.out.println("number after dividing by 3 is: " + number);
 		System.out.println("-------------------------------");
 
-		boolean equalsThree = (number == 3);
-		System.out.println("is number equal to 3? " + equalsThree);
+		boolean equalsOne = (number == 1);
+		System.out.println("is number equal to 1? " + equalsOne);
 		System.out.println("is number greater than or equal to 7? " + (number >= 7));
 		System.out.println("-------------------------------");
 
@@ -26,7 +26,7 @@ class Variables {
 		number = (int)otherNumber; // if precision is lost, you need to make the type change explicit (this is called casting)
 		System.out.println("number is " + number);
 
-		otherNumber = (double)15 / 4; // be careful about data types! even though otherNumber is a double,
+		otherNumber = 15 / 4; // be careful about data types! even though otherNumber is a double,
 		// 15 and 4 are integers, so this will perform integer division instead of double division,
 		// resulting in the loss of the decimal point. to fix this, cast the numbers!
 		System.out.println("15 / 4 = " + otherNumber);
@@ -36,10 +36,12 @@ class Variables {
 		// strings and characters
 
 		String word = "bcd";
+		System.out.println("word: " + word);
 		word = word + "efg";
+		System.out.println("word + \"efg\": " + word);
 		char character = 'a';
 		word = character + word;
-		System.out.println("word is: " + word);
+		System.out.println("'a' + word: " + word);
 
 	}
 }
