@@ -11,8 +11,8 @@ class Variables {
 		number = number + 612;
 		System.out.println("number after adding 612 is: " + number);
 		System.out.println("number % 10 is " + (number % 10));
-		number = number / 3; // same thing as `number = number - 10`
-		System.out.println("number after dividing by 3 is: " + number);
+		number = number / 500; // same thing as `number = number - 10`
+		System.out.println("number after dividing by 500 is: " + number);
 		System.out.println("-------------------------------");
 
 		boolean equalsOne = (number == 1);
