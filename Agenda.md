@@ -1,3 +1,5 @@
+**Please download my material at https://github.com/LOWERCASE-repo/oop-crash-course/releases/tag/1.2**
+
 # Introduction to Java
 - This session will cover the fundamentals of Java before OOP (Object-Oriented Programming)
 - If you're comfortable with OOP, this session will likely be beneath you
@@ -24,7 +26,7 @@
 
 # Other Notes
 The content for this session can be downloaded here:
-https://github.com/LOWERCASE-repo/oop-crash-course/releases/
+https://github.com/LOWERCASE-repo/oop-crash-course/releases/tag/1.2
 
 If you're still setting up Java, you may follow along in an online compiler:
 https://www.tutorialspoint.com/compile_java_online.php

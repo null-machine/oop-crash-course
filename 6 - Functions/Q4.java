@@ -3,7 +3,8 @@ class Q4 {
 	// Write a function that takes an int[] array, an int value, and an int index that returns a new int[] array with the value inserted at the index specified. All remaining values get shifted down by one.
 
 	static int[] insertIntoArray(int[] array, int index, int value) {
-		int[] newArray = new int[array.length + 1];
+		int newSize = array.length + 1;
+		int[] newArray = new int[newSize];
 		for (int i = 0; i < newArray.length; i++) {
 			if (i < index) {
 				 newArray[i] = array[i];
@@ -24,7 +25,8 @@ class Q4 {
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i]);
 		}
-		System.out.printf("Array after insertion of %d at position %d:%n", insertValue, insertIndex);
+		System.out.println("Array after insertion of " + insertValue + " at position " + insertIndex + ":");
+		// System.out.print("ahoy");
 		array = insertIntoArray(array, insertIndex, insertValue);
 		for (int i = 0; i < array.length; i++) {
 			System.out.println(array[i]);

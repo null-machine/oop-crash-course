@@ -19,7 +19,7 @@ class Loops {
 		System.out.println();
 
 		// with a do-while loop
-		int k = 0;
+		int k = 10;
 		do {
 			System.out.print(k + " ");
 			k++;

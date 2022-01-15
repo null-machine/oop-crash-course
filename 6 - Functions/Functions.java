@@ -3,8 +3,8 @@ class Functions {
 	public static void main(String[] args) {
 		function();
 		System.out.println("------------");
-
-		System.out.println(increment(5));
+		int x = increment(5);
+		System.out.println(x);
 		System.out.println("------------");
 
 		String[] array = { "one", "two", "three" };
@@ -13,6 +13,9 @@ class Functions {
 		System.out.println("------------");
 
 		System.out.println(increment(5, 10));
+		System.out.println("------------");
+
+		recursionDemo(0);
 	}
 
 	static void function() {
@@ -39,5 +42,13 @@ class Functions {
 	static int increment(int number, int other) {
 		System.out.println("increment with two parameters called");
 		return number + other;
+	}
+
+	static void recursionDemo(int iteration) {
+		if (iteration >= 10) {
+			return;
+		}
+		System.out.println("recursive call number: " + iteration);
+		recursionDemo(iteration + 1);
 	}
 }
